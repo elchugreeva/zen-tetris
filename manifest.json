@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Zen Tetris",
+    "version": "1.0",
+    "description": "A relaxing Tetris game with spa music and chill vibes",
+    "permissions": [
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Zen Tetris"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+  }
